@@ -1,12 +1,17 @@
 window.onload = function () {
-
-	document.getElementById("gender").addEventListener('change', welcoming);
-
-	function welcoming() {
-		alert("hey");
-		var name = document.getElementById("name").value;
+    
+    /* event listener */
+    document.getElementsByName("gender")[0].addEventListener('change', doThing);
+    
+    /* function */
+    function doThing(){
+      	console.log('Horray!');
+      	var name = document.getElementById("name").value;
+      	console.log(name);
 		var gender = document.getElementById("gender").value;
+		console.log(gender);
 
-		document.getElementById(wel).innerHTML = `Bienvenid${gender $ a : o} ${name}` ;
-	}
+		document.getElementById("wel").innerHTML = `Bienvenid${ (gender=='F') ? `a` : (gender=='M') ? `o` : `@` } ${ name }`;
+    }
+    
 }
