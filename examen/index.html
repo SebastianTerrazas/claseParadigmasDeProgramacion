@@ -1,25 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
 	<title>Examen</title>
 </head>
 <body>
-	<!--	m => mesa
+	<h1 id="time">Hora: </h1>
+	<!--Mesas
+			m => mesa
 			i => imagen
 			t => tiempo
 			p => precio	-->
-	
+
+	<!-- Mesa 1 -->
 	<p id="m1">
-		<h1>Mesa 1</h1>
-		<img class="m1i" src="img/tableOff.png" alt="">
-		<label for="m1t1">Hora de inicio:</label>
-		<p id="m1t1"></p>
-		<label for="m1t2">Hora de inicio:</label>
-		<p id="m1t1"></p>
-		<label for="m1p">Hora de inicio:</label>
-		<p id="m1t1"></p>
+		<p><img id="m1i" src="img/tableOff.png" onclick="switch01('m1i','m1t1','m1t2','m1p')"></p>
+		<h2>Mesa 1</h2>
+		<label for="m1t1">Hora de inicio: </label>
+		<b id="m1t1">-</b>
+		<br>
+		<label for="m1t2">Hora de final: </label>
+		<b id="m1t2">-</b>
+		<br>
+		<label for="m1p">Total: </label>
+		<b id="m1p">-</b>
+		<br>
 	</p>
 
-	<script src="script.js"></script>
+	<!-- Mesa 2 -->
+	<p id="m2">
+		<p><img id="m2i" src="img/tableOff.png" onclick="switch01('m2i','m2t1','m2t2','m2p')"></p>
+		<h2>Mesa 2</h2>
+		<label for="m2t1">Hora de inicio: </label>
+		<b id="m2t1">-</b>
+		<br>
+		<label for="m2t2">Hora de final: </label>
+		<b id="m2t2">-</b>
+		<br>
+		<label for="m2p">Total: </label>
+		<b id="m2p">-</b>
+		<br>
+	</p>
+
+	<!-- Mesa 3 -->
+	<p id="m3">
+		<p><img id="m3i" src="img/tableOff.png" onclick="switch01('m3i','m3t1','m3t2','m3p')"></p>
+		<h2>Mesa 3</h2>
+		<label for="m3t1">Hora de inicio: </label>
+		<b id="m3t1">-</b>
+		<br>
+		<label for="m3t2">Hora de final: </label>
+		<b id="m3t2">-</b>
+		<br>
+		<label for="m3p">Total: </label>
+		<b id="m3p">-</b>
+		<br>
+	</p>
+
+	<!-- Mesa 4 -->
+	<p id="m4">
+		<p><img id="m4i" src="img/tableOff.png" onclick="switch01('m4i','m4t1','m4t2','m4p')"></p>
+		<h2>Mesa 4</h2>
+		<label for="m4t1">Hora de inicio: </label>
+		<b id="m4t1">-</b>
+		<br>
+		<label for="m4t2">Hora de final: </label>
+		<b id="m4t2">-</b>
+		<br>
+		<label for="m4p">Total: </label>
+		<b id="m4p">-</b>
+		<br>
+	</p>
+
+	<!-- Mesa 5 -->
+	<p id="m5">
+		<p><img id="m5i" src="img/tableOff.png" onclick="switch01('m5i','m5t1','m5t2','m5p')"></p>
+		<h2>Mesa 5</h2>
+		<label for="m5t1">Hora de inicio: </label>
+		<b id="m5t1">-</b>
+		<br>
+		<label for="m5t2">Hora de final: </label>
+		<b id="m5t2">-</b>
+		<br>
+		<label for="m5p">Total: </label>
+		<b id="m5p">-</b>
+		<br>
+	</p>
+
+	<!-- Mesa 6 -->
+	<p id="m6">
+		<p><img id="m6i" src="img/tableOff.png" onclick="switch01('m6i','m6t1','m6t2','m6p')"></p>
+		<h2>Mesa 6</h2>
+		<label for="m6t1">Hora de inicio: </label>
+		<b id="m6t1">-</b>
+		<br>
+		<label for="m6t2">Hora de final: </label>
+		<b id="m6t2">-</b>
+		<br>
+		<label for="m6p">Total: </label>
+		<b id="m6p">-</b>
+		<br>
+	</p>
+
+	<script src="js/script.js"></script>
 </body>
 </html>

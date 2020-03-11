@@ -1,4 +1,18 @@
-.m1i {
-	width: 50px;
-/*	height: 50%;
-*/}
+body {
+	background:url(../img/Cactus.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:scroll; /* scroll/fixed*/
+	background-position:center 0px;
+}
+
+/*h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+img {
+	max-width: 150px;
+	height: 100%;
+}
