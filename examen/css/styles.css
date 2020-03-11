@@ -1,9 +1,10 @@
 body {
-	background:url(../img/Cactus.jpg);
+	background:url('../img/Woman on Pool Table by Cleyton Ewerton.jpg');
 	background-size:100%;
 	background-repeat:no-repeat;
 	background-attachment:scroll; /* scroll/fixed*/
 	background-position:center 0px;
+	color: white;
 }
 
 /*h1 {
