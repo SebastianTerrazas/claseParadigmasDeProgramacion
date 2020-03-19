@@ -2,7 +2,7 @@ const switch01 = (num) => {
 	if(check01(num)){ 
 		document.getElementById(`m${num}i`).src = "img/tableOff.png"
 		document.getElementById(`m${num}t2`).innerHTML = getHora();
-		endPrice(`m${num}i`);
+		endPrice(num);
 	} else {
 		document.getElementById(`m${num}i`).src = "img/tableOn.png";
 		document.getElementById(`m${num}t1`).innerHTML = getHora();
