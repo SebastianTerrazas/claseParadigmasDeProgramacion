@@ -112,3 +112,14 @@ div.mesa6info {
 div.mesa6:hover {
 	background-color: rgba(100,0,0,.6);
 }
+
+button.extrasBtn {
+	background-color: rgba(100,0,0,.6);
+	/*border: none;*/
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-size: 14px;
+}

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/modalstyle.css">
 	<title>Examen</title>
 </head>
 <body>
@@ -27,6 +28,9 @@
 			<br>
 			<label for="m1t2">Hora de final: </label>
 			<b id="m1t2">-</b>
+			<br>
+			<button id="myBtn" class="extrasBtn" onclick="openModal(1)">Extras</button>
+			<b id="m1e"> $</b>
 			<br>
 			<br>
 			<label for="m1p">Total: $ </label>
@@ -135,6 +139,27 @@
 		</div>
 	</div>
 
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <span class="close">&times;</span>
+	      <h2>E x t r a s</h2>
+	    </div>
+	    <div class="modal-body">
+	      <p>Some text in the Modal Body</p>
+	      <p>Some other text...</p>
+	    </div>
+	    <div class="modal-footer">
+	      <h3>Modal Footer</h3>
+	    </div>
+	  </div>
+
+	</div>
+
 	<script src="js/script.js"></script>
+	<script src="js/modalscript.js"></script>
 </body>
 </html>
