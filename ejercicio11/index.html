@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<title>Ejercicio 11</title>
+</head>
+<body>
+	<h3>Introduce numeros</h3>
+	<input id="numIn" type="text">
+	<button onclick="addArr(numIn, og)">Agregar</button>
+	<h4 id="og">Array = </h4>
+	<button onclick="startDo(map, filter, reduce)">Go!</button>
+
+	<h1>.map()</h1>
+	<p>Cuadrado de cada numero del arreglo</p>
+	<h4 id="map">Map Array = </h4>
+
+	<h1>.filter()</h1>
+	<p>Numeros mayores que 3</p>
+	<h4 id="filter">Filter Array = </h4>
+
+	<h1>.reduce()</h1>
+	<p>Suma de los numeros</p>
+	<h4 id="reduce">Reduce Array = </h4>
+
+	<button onclick="reset()">Reset</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
