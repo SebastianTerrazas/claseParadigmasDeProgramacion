@@ -1,0 +1,53 @@
+body {
+	/*background-image: url("../img/Red triangles by Scott Webb.jpg");*/
+	/*background-image: url("../img/background red.jpg");*/
+	background-image: url("../img/background red city.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-size: 100%;
+	color: black;
+}
+h1 {
+	color: white;
+	text-align: center;
+	background-color: rgba(75,25,25,0.8);
+	padding-bottom: .6rem;
+}
+.charsShow {
+	margin-left: 16px;
+}
+
+.charsTab {
+
+}
+
+.individualCharList {
+	border-radius: 8px;
+	background-color: rgba(75,25,25,0.5);
+	margin: -8px 20px;
+	padding: 5px;
+	color: white;
+}
+.individualCharList:hover {
+	background-color: rgba(200,200,210,1);
+	color: black;
+}
+.individualCharListLink:link {
+	text-decoration: none;
+}
+.individualCharListLink:visited {
+	text-decoration: none;
+}
+.individualCharListLink:hover {
+	text-decoration: none;
+}
+.individualCharList:active {
+	background-color: rgba(255,100,100,1);
+	text-decoration: none;
+}
+
+.copyrightstuffC {
+	text-align: center;
+	color: black;
+}
