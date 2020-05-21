@@ -13,6 +13,7 @@ h1 {
 	text-align: center;
 	background-color: rgba(75,25,25,0.8);
 	padding-bottom: .6rem;
+	margin-bottom: 0px;
 }
 .charsShow {
 	margin-left: 16px;
@@ -50,4 +51,31 @@ h1 {
 .copyrightstuffC {
 	text-align: center;
 	color: black;
+}
+
+.individualCharListDet {
+	border-radius: 8px;
+	background-color: rgba(75,25,25,0.5);
+	margin: 5px 20px;
+	padding: 40px 30px;
+	color: white;
+}
+
+.display-mine {
+	font-size: 2rem;
+}
+
+.comiclist {
+	padding: 20px 30px;
+	margin: 20px 20px;
+	text-align: center;
+}
+
+.list-group-item-custom-mine {
+	background-color: rgba(0,0,0,0);
+}
+
+.backbutton {
+	color: white;
+	padding-left: 20px;
 }
